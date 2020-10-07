@@ -18,11 +18,19 @@ nav img{
 .banner {
     height: 300px;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #c4c4c4;
 }
 
 .banner img {
-    width: 80px;
-    height:80px;
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+    background-color: #e09898;
+    
+    
 }
 
 main {
@@ -39,4 +47,12 @@ main div {
 
 .mission{
     flex: 3;
+}
+fieldset {
+    width: 1152px;
+    height: 100%;
+}
+.team img {
+    width: 50%;
+    justify-content: center;
 }
