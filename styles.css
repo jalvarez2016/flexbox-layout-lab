@@ -1,0 +1,42 @@
+nav {
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+
+nav div{
+    display: flex;
+    padding: 20px;
+    align-items: center;
+}
+
+nav img{
+    align-items: center;
+    padding: 15px;
+}
+
+.banner {
+    height: 300px;
+    width: 100%;
+}
+
+.banner img {
+    width: 80px;
+    height:80px;
+}
+
+main {
+    display: flex;
+}
+
+main div {
+    padding: 30px;
+}
+
+.team{
+    flex:1;
+}
+
+.mission{
+    flex: 3;
+}
